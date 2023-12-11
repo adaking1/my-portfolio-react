@@ -1,6 +1,6 @@
 export default function AboutMe() {
     return (
-        <div>
+        <div id="aboutMe">
             <p>
                 As someone with a music degree, I did not have too many options after graduation. After many years of 
                 working in various jobs, I found coding. At the beginning of 2022 I started a Python certificate that I completed by the end of March.
