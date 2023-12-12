@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+}
