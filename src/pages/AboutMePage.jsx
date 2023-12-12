@@ -1,5 +1,6 @@
 export default function AboutMe() {
     return (
+        <>
         <div id="aboutMe">
             <p>
                 As someone with a music degree, I did not have too many options after graduation. After many years of 
@@ -9,5 +10,6 @@ export default function AboutMe() {
                 and create a professional portfolio.
             </p>
         </div>
+        </>
     );
 }

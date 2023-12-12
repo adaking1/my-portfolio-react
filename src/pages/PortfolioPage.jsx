@@ -1,7 +1,11 @@
 // import { useState, useEffect } from "react";
 // import { useParams, Link } from "react-router-dom";
 import Project from '../components/UI/Project';
-import techBlog from '../assets/images/techBlog.png'
+import techBlog from '../assets/images/techBlog.png';
+import socialNetwork from '../assets/images/socialNetwork.png';
+import empDBManager from '../assets/images/employeeDatabase.jpg';
+import weatherDashboard from '../assets/images/weatherDashboard.png';
+
 
 export default function PortfolioPage() {
 
@@ -15,27 +19,27 @@ export default function PortfolioPage() {
             id: '1'
         },
         {
-            title: 'The Tech Blog',
-            image: techBlog,
-            altText: 'First Fullstack Application',
-            github: 'https://github.com/adaking1/technology-blog',
-            link: 'https://chilling-citadel-47329-94bcd0d8e6c1.herokuapp.com/',
+            title: 'Social Networking API',
+            image: socialNetwork,
+            altText: 'Social Network API',
+            github: 'https://github.com/adaking1/social-media-api',
+            link: 'https://github.com/adaking1/social-media-api',
             id: '2'
         },
         {
-            title: 'The Tech Blog',
-            image: techBlog,
-            altText: 'First Fullstack Application',
-            github: 'https://github.com/adaking1/technology-blog',
-            link: 'https://chilling-citadel-47329-94bcd0d8e6c1.herokuapp.com/',
+            title: 'Employee Database Manager',
+            image: empDBManager,
+            altText: 'Employee Database Manager',
+            github: 'https://github.com/adaking1/employee-database-manager/',
+            link: 'https://github.com/adaking1/employee-database-manager/',
             id: '3'
         },
         {
-            title: 'The Tech Blog',
-            image: techBlog,
-            altText: 'First Fullstack Application',
-            github: 'https://github.com/adaking1/technology-blog',
-            link: 'https://chilling-citadel-47329-94bcd0d8e6c1.herokuapp.com/',
+            title: 'Weather Dashboard',
+            image: weatherDashboard,
+            altText: 'Weather Dashboard',
+            github: 'https://github.com/adaking1/weather-dashboard',
+            link: 'https://adaking1.github.io/weather-dashboard/',
             id: '4'
         }
     ]

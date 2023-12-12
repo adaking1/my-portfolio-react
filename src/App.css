@@ -44,4 +44,11 @@
 #projects {
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.project {
+  margin: 15px;
+  width: 45%;
 }
