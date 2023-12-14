@@ -32,3 +32,21 @@
 #resumeCard ul{
   list-style-type: none;
 }
+
+.nav-item {
+  margin: 20px;
+}
+
+.proj-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.active {
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 35px;
+}

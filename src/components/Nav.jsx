@@ -1,20 +1,21 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Header from './UI/Header';
 
 export default function Nav () {
+    const currentPage = useLocation().pathname;
     return (
         <Header 
             links={[
-                <Link key={1} to='/'>
+                <Link className={currentPage === '/' ? 'active': 'not-active'} key={1} to='/'>
                     About Me 
                 </Link>,
-                <Link key={2} to='/portfolio'>
+                <Link className={currentPage === '/portfolio' ? 'active': 'not-active'} key={2} to='/portfolio'>
                     Portfolio
                 </Link>,
-                <Link key={3} to='/contact'>
+                <Link className={currentPage === '/contact' ? 'active': 'not-active'} key={3} to='/contact'>
                 Contact 
                 </Link>,
-                <Link key={4} to='/resume'>
+                <Link className={currentPage === '/resume' ? 'active': 'not-active'} key={4} to='/resume'>
                 Resume 
                 </Link>
             ]}
