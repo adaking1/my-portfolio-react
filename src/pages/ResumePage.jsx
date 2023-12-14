@@ -1,8 +1,9 @@
-import { Link } from 'react-router-dom'
 import myResume from '../assets/downloads/myResume.pdf';
 
 export default function resumePage() {
     return (
+        <>
+        <h2>Resume and Skills</h2>
         <section id='resumeCard'>
             <a href={myResume} download='resume_adam_king'>Downloadable Resume</a>
             <h3>Front-End Knowledge</h3>
@@ -27,5 +28,6 @@ export default function resumePage() {
                 <li>REST API</li>
             </ul>
         </section>
+        </>
     );
 }

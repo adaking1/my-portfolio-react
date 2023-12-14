@@ -1,6 +1,7 @@
 export default function contactPage() {
     return (
         <>
+        <h2>Contact</h2>
         <div className="mb-3">
             <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>
             <input type="text" className="form-control" id="exampleFormControlInput1"/>

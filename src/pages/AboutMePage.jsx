@@ -1,6 +1,7 @@
 export default function AboutMe() {
     return (
         <>
+        <h2>About Me</h2>
         <div id="aboutMe">
             <p>
                 As someone with a music degree, I did not have too many options after graduation. After many years of 
