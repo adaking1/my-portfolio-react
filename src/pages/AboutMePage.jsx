@@ -1,7 +1,12 @@
+import me from "../assets/images/me.jpg";
+
 export default function AboutMe() {
     return (
         <>
+        <div id="aboutTitle">
         <h2>About Me</h2>
+        <img src={me} id="me"></img>
+        </div>
         <div id="aboutMe">
             <p>
                 As someone with a music degree, I did not have too many options after graduation. After many years of 

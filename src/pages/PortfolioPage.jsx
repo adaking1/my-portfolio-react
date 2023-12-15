@@ -1,5 +1,3 @@
-// import { useState, useEffect } from "react";
-// import { useParams, Link } from "react-router-dom";
 import Project from '../components/UI/Project';
 import techBlog from '../assets/images/techBlog.png';
 import socialNetwork from '../assets/images/socialNetwork.png';

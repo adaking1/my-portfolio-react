@@ -3,6 +3,7 @@
   padding: 2rem;
   text-align: center;
   width: 100%;
+  background-color:lightgray;
 }
 
 #projects {
@@ -49,4 +50,34 @@
 
 h1 {
   font-size: 35px;
+}
+
+h2 {
+  margin: 75px 0 35px 0;
+}
+
+#navbar {
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  margin-bottom: 20px;
+  background-color: lightblue;
+}
+
+#me {
+  height: 150px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+#aboutTitle {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 44%;
+  justify-content: space-between;
+}
+
+#aboutMe {
+  margin-top: 20px;
 }
