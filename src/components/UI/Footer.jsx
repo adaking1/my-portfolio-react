@@ -12,8 +12,8 @@ export default function Footer() {
             </a>
         </li>
         <li className="nav-item">
-            <a href="https://github.com/adaking1" className="icon" id="github" target="_blank" rel="noreferrer">
-                <i className="fa-brands fa-github fa-2xl"></i>
+            <a href="https://stackoverflow.com/users/23108727/adam" className="icon" id="stackOverflow" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-stack-overflow fa-2xl"></i>
             </a>
         </li>
     </ul>
