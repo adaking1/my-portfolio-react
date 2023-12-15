@@ -11,7 +11,7 @@ export default function PortfolioPage() {
 
     const projects = [
         {
-            title: 'The Tech Blog',
+            title: 'Tech Blog',
             image: techBlog,
             altText: 'First Fullstack Application',
             github: 'https://github.com/adaking1/technology-blog',

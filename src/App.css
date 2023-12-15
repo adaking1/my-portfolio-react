@@ -1,9 +1,26 @@
+*{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #root {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   width: 100%;
   background-color:lightgray;
+}
+
+a {
+  color:dodgerblue;
+}
+
+#navTitles {
+  display: flex;
+  flex-direction: row;
+}
+.pageLink {
+  font-size: 18px;
+  flex-direction: column;
 }
 
 #projects {
@@ -20,6 +37,7 @@
 
 #navLinks {
   justify-content: end;
+  margin-right: 20px;
 }
 
 #navLinks a {
@@ -28,6 +46,7 @@
 
 #resumeCard {
   text-align: left;
+  margin-left: 25px;
 }
 
 #resumeCard ul{
@@ -70,7 +89,6 @@ h2 {
   border-radius: 15px;
   margin-top: 50px;
 }
-
 #aboutTitle {
   display: flex;
   flex-direction: row-reverse;
@@ -80,4 +98,46 @@ h2 {
 
 #aboutMe {
   margin-top: 20px;
+}
+
+#download {
+  font-size: 20px;
+}
+
+#frontEnd {
+  margin-top: 30px;
+}
+
+@media screen and (max-width:695px) {
+  .project {
+    width: 200%;
+  }
+  #projects {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:636px) {
+  #bar {
+    justify-content: center;
+  }
+  #me {
+    height: 100px;
+    margin-top: 75px
+  }
+}
+
+@media screen and (max-width: 456px) {
+  h2 {
+    margin-top: 125px;
+  }
+  #me {
+    margin-top: 105px;
+  }
+  .pageLink {
+    font-size: 14px
+  }
+  #aboutTitle {
+    margin-right: 20%;
+  }
 }

@@ -6,16 +6,16 @@ export default function Nav () {
     return (
         <Header 
             links={[
-                <Link className={currentPage === '/' ? 'active': 'not-active'} key={1} to='/'>
+                <Link className={currentPage === '/' ? 'active pageLink': 'not-active pageLink'} key={1} to='/'>
                     About Me 
                 </Link>,
-                <Link className={currentPage === '/portfolio' ? 'active': 'not-active'} key={2} to='/portfolio'>
+                <Link className={currentPage === '/portfolio' ? 'active pageLink': 'not-active pageLink'} key={2} to='/portfolio'>
                     Portfolio
                 </Link>,
-                <Link className={currentPage === '/contact' ? 'active': 'not-active'} key={3} to='/contact'>
+                <Link className={currentPage === '/contact' ? 'active pageLink': 'not-active pageLink'} key={3} to='/contact'>
                 Contact 
                 </Link>,
-                <Link className={currentPage === '/resume' ? 'active': 'not-active'} key={4} to='/resume'>
+                <Link className={currentPage === '/resume' ? 'active pageLink': 'not-active pageLink'} key={4} to='/resume'>
                 Resume 
                 </Link>
             ]}

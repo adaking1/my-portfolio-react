@@ -5,8 +5,8 @@ export default function resumePage() {
         <>
         <h2>Resume and Skills</h2>
         <section id='resumeCard'>
-            <a href={myResume} download='resume_adam_king'>Downloadable Resume</a>
-            <h3>Front-End Knowledge</h3>
+            <a id='download' href={myResume} download='resume_adam_king'>Downloadable Resume</a>
+            <h3 id='frontEnd'>Front-End Knowledge</h3>
             <ul>
                 <li>HTML</li>
                 <li>JavaScript</li>
