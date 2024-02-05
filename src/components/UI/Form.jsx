@@ -6,6 +6,7 @@ export default function Form() {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const [error, setError] = useState("");
+    const contact = `mailto:kinga1215@yahoo.com?Portfolio Contact&body=${message}`
     const change = (inputName, value) => {
         switch (inputName) {
             case "name":
@@ -20,7 +21,7 @@ export default function Form() {
                 setMessage(value);
                 setError("");
         }
-    }
+    };
     const blur = (inputName, value) => {
         if (!value) {
             setError(`Invalid ${inputName}`)
@@ -31,7 +32,7 @@ export default function Form() {
                 setError('Invalid email');
             }
         }
-    }    
+    };
     return (
         <>
         <h2>Contact</h2>
@@ -47,7 +48,7 @@ export default function Form() {
             <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={message} onChange={(e) => change("message", e.target.value)} onBlur={(e) => blur("message", e.target.value)} required></textarea>
             <p>{error}</p>
-            <button type="button">Submit</button>
+            <a href={contact}>Submit</a>
         </div>
         </>
     );
