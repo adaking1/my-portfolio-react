@@ -9,11 +9,10 @@ export default function AboutMe() {
         </div>
         <div id="aboutMe">
             <p>
-                As someone with a music degree, I did not have too many options after graduation. After many years of 
-                working in various jobs, I found coding. At the beginning of 2022 I started a Python certificate that I completed by the end of March.
-                That program showed me a new passion for coding and using very logical thinking. Since then I have been trying to break into the tech world.
-                Now I am in the process of a completing a web deveopment bootcamp, where I can hone in my computing knowledge, add new languages to my arsenal,
-                and create a professional portfolio.
+                Coming out of college with a music degree, my options were limited. After many years of
+                working various jobs, I found a passion for coding. At the beginning of 2022 I started a Python certificate that I completed by the end of that April.
+                That program helped blossom a love for coding and using very logical thinking. Since then I have completed a fullstack web deveopment bootcamp through the University of Connecticut, 
+                where I learned to code using front-end and back-end technologies such as MongoDB, Express.js, React.js, Node.js, and MySQL. These skills are exhibitied in the applications found in the "My Work" page, and this portfolio itself.
             </p>
         </div>
         </>
