@@ -1,6 +1,6 @@
 import Project from '../components/UI/Project';
 import techBlog from '../assets/images/techBlog.png';
-import socialNetwork from '../assets/images/socialNetwork.png';
+import quickBite from '../assets/images/quickBite.png';
 import empDBManager from '../assets/images/employeeDatabase.jpg';
 import weatherDashboard from '../assets/images/weatherDashboard.png';
 import comicQuest from '../assets/images/comicQuest.png';
@@ -11,19 +11,19 @@ export default function PortfolioPage() {
 
     const projects = [
         {
+            title: 'Quick-Bite Express',
+            image: quickBite,
+            altText: 'Final Project for Bootcamp',
+            github: 'https://github.com/adaking1/QuickBite-Express',
+            link: 'https://quickbite-express-rbx4.onrender.com/',
+            id: '1'
+        },
+        {
             title: 'Tech Blog',
             image: techBlog,
             altText: 'First Fullstack Application',
             github: 'https://github.com/adaking1/technology-blog',
             link: 'https://chilling-citadel-47329-94bcd0d8e6c1.herokuapp.com/',
-            id: '1'
-        },
-        {
-            title: 'Social Networking API',
-            image: socialNetwork,
-            altText: 'Social Network API',
-            github: 'https://github.com/adaking1/social-media-api',
-            link: 'https://github.com/adaking1/social-media-api',
             id: '2'
         },
         {
