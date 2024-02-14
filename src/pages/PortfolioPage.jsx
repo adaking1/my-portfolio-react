@@ -1,6 +1,6 @@
 import Project from '../components/UI/Project';
 import techBlog from '../assets/images/techBlog.png';
-import quickBite from '../assets/images/quickBite.png';
+import quickBite from '../assets/images/quickBite.jpg';
 import empDBManager from '../assets/images/employeeDatabase.jpg';
 import weatherDashboard from '../assets/images/weatherDashboard.png';
 import comicQuest from '../assets/images/comicQuest.png';
