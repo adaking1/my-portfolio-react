@@ -28,6 +28,7 @@ a {
   flex-wrap: wrap;
   list-style: none;
   justify-content: center;
+  align-items: center;
 }
 
 .project {

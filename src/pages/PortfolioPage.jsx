@@ -1,6 +1,6 @@
 import Project from '../components/UI/Project';
 import techBlog from '../assets/images/techBlog.png';
-import quickBite from '../assets/images/quickBite.jpg';
+import quickBite from '../assets/images/quickBite.png';
 import empDBManager from '../assets/images/employeeDatabase.jpg';
 import weatherDashboard from '../assets/images/weatherDashboard.png';
 import comicQuest from '../assets/images/comicQuest.png';
@@ -19,12 +19,13 @@ export default function PortfolioPage() {
             id: '1'
         },
         {
-            title: 'Tech Blog',
-            image: techBlog,
-            altText: 'First Fullstack Application',
-            github: 'https://github.com/adaking1/technology-blog',
-            link: 'https://chilling-citadel-47329-94bcd0d8e6c1.herokuapp.com/',
+            title: 'Weather Dashboard',
+            image: weatherDashboard,
+            altText: 'Weather Dashboard',
+            github: 'https://github.com/adaking1/weather-dashboard',
+            link: 'https://adaking1.github.io/weather-dashboard/',
             id: '2'
+            
         },
         {
             title: 'Employee Database Manager',
@@ -35,11 +36,11 @@ export default function PortfolioPage() {
             id: '3'
         },
         {
-            title: 'Weather Dashboard',
-            image: weatherDashboard,
-            altText: 'Weather Dashboard',
-            github: 'https://github.com/adaking1/weather-dashboard',
-            link: 'https://adaking1.github.io/weather-dashboard/',
+            title: 'Tech Blog',
+            image: techBlog,
+            altText: 'First Fullstack Application',
+            github: 'https://github.com/adaking1/technology-blog',
+            link: 'https://chilling-citadel-47329-94bcd0d8e6c1.herokuapp.com/',
             id: '4'
         },
         {
